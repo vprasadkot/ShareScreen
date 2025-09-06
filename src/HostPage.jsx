@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 
-const SIGNAL_URL = 'ws://localhost:3001';
+// const SIGNAL_URL = 'ws://localhost:3001';
+const SIGNAL_URL = 'wss://sharescreen-2xe9.onrender.com';
 
 const HostPage = () => {
     const videoRef = useRef(null);
